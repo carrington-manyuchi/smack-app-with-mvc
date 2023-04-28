@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		235C344729FBBBA000D5902B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235C344629FBBBA000D5902B /* Constants.swift */; };
+		235C344929FBC54700D5902B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235C344829FBC54700D5902B /* LoginVC.swift */; };
 		237C089229D3CD3A00C71327 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C089129D3CD3A00C71327 /* AppDelegate.swift */; };
 		237C089429D3CD3A00C71327 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C089329D3CD3A00C71327 /* SceneDelegate.swift */; };
 		237C089929D3CD3A00C71327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237C089729D3CD3A00C71327 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		235C344629FBBBA000D5902B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		235C344829FBC54700D5902B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		237C088E29D3CD3A00C71327 /* smack-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "smack-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		237C089129D3CD3A00C71327 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		237C089329D3CD3A00C71327 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		235C344529FBBB8900D5902B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				235C344629FBBBA000D5902B /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		237C088529D3CD3A00C71327 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +83,7 @@
 		237C089029D3CD3A00C71327 /* smack-app */ = {
 			isa = PBXGroup;
 			children = (
+				235C344529FBBB8900D5902B /* Utilities */,
 				237FFFD129E45DB700E05ED5 /* Model */,
 				237FFFD029E45DA900E05ED5 /* View */,
 				237FFFCF29E45D9E00E05ED5 /* Controller */,
@@ -100,6 +113,7 @@
 			children = (
 				237FFFD229E45E1700E05ED5 /* ChatVC.swift */,
 				237FFFD429E45E2F00E05ED5 /* ChannelVC.swift */,
+				235C344829FBC54700D5902B /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -253,8 +267,10 @@
 			files = (
 				237FFFD329E45E1700E05ED5 /* ChatVC.swift in Sources */,
 				237C089229D3CD3A00C71327 /* AppDelegate.swift in Sources */,
+				235C344929FBC54700D5902B /* LoginVC.swift in Sources */,
 				23D087CD29F931F0007B03B2 /* GradientView.swift in Sources */,
 				237C089429D3CD3A00C71327 /* SceneDelegate.swift in Sources */,
+				235C344729FBBBA000D5902B /* Constants.swift in Sources */,
 				237FFFCE29E45AD800E05ED5 /* SWRevealViewController.m in Sources */,
 				237FFFD529E45E2F00E05ED5 /* ChannelVC.swift in Sources */,
 			);
